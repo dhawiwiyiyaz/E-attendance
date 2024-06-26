@@ -10,7 +10,7 @@
                             <li class="menu-title">Main</li>
                             <li class="">
                                 <a href="{{route('admin')}}" class="waves-effect {{ request()->is("admin") || request()->is("admin/*") ? "mm active" : "" }}">
-                                    <i class="ti-home"></i><span class="badge badge-primary badge-pill float-right">2</span> <span> Dashboard </span>
+                                    <i class="ti-home"></i><span class="badge badge-primary badge-pill float-right"></span> <span> Dashboard </span>
                                 </a>
                             </li>
                             
@@ -49,28 +49,10 @@
                                 </a>
                             </li>
                             <li class="">
-                                <a href="/latetime" class="waves-effect {{ request()->is("latetime") || request()->is("latetime/*") ? "mm active" : "" }}">
-                                    <i class="dripicons-warning"></i><span> Late Time </span>
-                                </a>
-                            </li>
-                            <li class="">
                                 <a href="/leave" class="waves-effect {{ request()->is("leave") || request()->is("leave/*") ? "mm active" : "" }}">
                                     <i class="dripicons-backspace"></i> <span> Leave </span>
                                 </a>
                             </li>
-                            <li class="">
-                                <a href="/overtime" class="waves-effect {{ request()->is("overtime") || request()->is("overtime/*") ? "mm active" : "" }}">
-                                    <i class="dripicons-alarm"></i> <span> Over Time </span>
-                                </a>
-                            </li>
-                            <li class="menu-title">Tools</li>
-                            <li class="">
-                                <a href="{{ route("finger_device.index") }}" class="waves-effect {{ request()->is("finger_device") || request()->is("finger_device/*") ? "mm active" : "" }}">
-                                    <i class="fas fa-fingerprint"></i> <span> Biometric Device </span>
-                                </a>
-                            </li>
-
-                        </ul>
 
                     </div>
                     <!-- Sidebar -->

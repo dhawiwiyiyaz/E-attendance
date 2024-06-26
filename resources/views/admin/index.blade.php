@@ -7,9 +7,9 @@
 
 @section('breadcrumb')
 <div class="col-sm-6 text-left" >
-     <h4 class="page-title">Dashboard</h4>
+     <h3 class="page-title">Dashboard</h3>
      <ol class="breadcrumb">
-         <li class="breadcrumb-item active">Welcome to Attendance Management System</li>
+         <li class="breadcrumb-item active"><h1>Welcome to Attendance Management System</h1></li>
      </ol>
 </div>
 @endsection
@@ -30,9 +30,7 @@
                                         </div>
                                         <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
-                                            <p class="text-white-50 mb-0">More info</p>
                                         </div>
                                     </div>
                                 </div>
@@ -51,10 +49,8 @@
                                         </div>
                                         <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,10 +69,8 @@
                                         </div>
                                         <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
                                         </div>
                                     </div>
                                 </div>
@@ -95,10 +89,8 @@
                                         </div>
                                         <div class="pt-2">
                                             <div class="float-right">
-                                                <a href="#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
                                             </div>
         
-                                            <p class="text-white-50 mb-0">More info</p>
                                         </div>
                                     </div>
                                 </div>
@@ -144,61 +136,7 @@
                                 <!-- end card -->
                             </div>
 
-                            <div class="col-xl-3">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div>
-                                            <h4 class="mt-0 header-title mb-4">Sales Analytics</h4>
-                                        </div>
-                                        <div class="wid-peity mb-4">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted">Online</p>
-                                                        <h5 class="mb-4">1,542</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-4">
-                                                        <span class="peity-line" data-width="100%" data-peity='{ "fill": ["rgba(2, 164, 153,0.3)"],"stroke": ["rgba(2, 164, 153,0.8)"]}' data-height="60">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wid-peity mb-4">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted">Offline</p>
-                                                        <h5 class="mb-4">6,451</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-4">
-                                                        <span class="peity-line" data-width="100%" data-peity='{ "fill": ["rgba(2, 164, 153,0.3)"],"stroke": ["rgba(2, 164, 153,0.8)"]}' data-height="60">6,2,8,4,-3,8,1,-3,6,-5,9,2,-8,1,4,8,9,8,2,1</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div>
-                                                        <p class="text-muted">Marketing</p>
-                                                        <h5>84,574</h5>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="mb-4">
-                                                        <span class="peity-line" data-width="100%" data-peity='{ "fill": ["rgba(2, 164, 153,0.3)"],"stroke": ["rgba(2, 164, 153,0.8)"]}' data-height="60">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <!-- end row -->
                         
